@@ -24,9 +24,9 @@ Original repository: https://github.com/facebookresearch/end-to-end-negotiator
 
 Results (higher the better, min 0, max 10)
 
-SV versus RL normal (without rollouts): 
+SV versus RL normal (without rollouts): <br />
 4.93 versus 6.20
 
-SV versus RL with rollouts: 
+SV versus RL with rollouts: <br />
 4.57 versus 7.05 
 
