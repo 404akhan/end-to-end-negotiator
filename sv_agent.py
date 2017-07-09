@@ -268,12 +268,12 @@ class SVAgent(object):
 							self.model.ctx_h: self.ctx_h
 						})
 						distr = np.array(words_dstr[0][0])
-						bad_tokens = self.model.corpus.word_dict.w2i(['<unk>', 'YOU:', 'THEM:', '<pad>'])
+						bad_tokens = self.model.corpus.word_dict.w2i(['<unk>', '<pad>'])
 						distr[bad_tokens] = 0
 						distr /= np.sum(distr)
-
-						words = [[ np.random.choice(np.arange(len(distr)), p=distr) ]]
 						
+						words = [[ np.random.choice(np.arange(len(distr)), p=distr) ]]
+
 						words_collect_local.append(words[0][0])
 						if words[0][0] in self.model.corpus.word_dict.w2i(['<selection>']):
 							break

@@ -286,7 +286,7 @@ class RlAgent(object):
 							self.model.ctx_h: self.ctx_h
 						})
 						distr = np.array(words_dstr[0][0])
-						bad_tokens = self.model.corpus.word_dict.w2i(['<unk>', 'YOU:', 'THEM:', '<pad>'])
+						bad_tokens = self.model.corpus.word_dict.w2i(['<unk>', '<pad>'])
 						distr[bad_tokens] = 0
 						distr /= np.sum(distr)
 
