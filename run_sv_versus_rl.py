@@ -17,7 +17,7 @@ from utils import ContextGenerator
 
 # find sample logs at sv_versus_rl-normal.log and sv_versus_rl-rollout.log
 USE_ROLLOUTS = False
-total_games = 1000
+total_games = 100
 
 corpus = data.WordCorpus('end-to-end-negotiator/src/data/negotiate', freq_cutoff=20, verbose=True)
 traindata = corpus.train_dataset(16)
