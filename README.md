@@ -6,7 +6,7 @@ Deal or No Deal? End-to-End Learning for Negotiation Dialogues
 
 https://arxiv.org/abs/1706.05125
 
-Training data available at https://github.com/facebookresearch/end-to-end-negotiator, and also pytorch implementation
+pytorch implementation and training data available at original repository https://github.com/facebookresearch/end-to-end-negotiator
 
 
 - run_sv_versus_rl.py - for generating sample conversation between supervised trained model and model trained with reinforcement learning, optionally you may set USE_ROLLOUTS to True to make RL agent perform rollouts (see paper). Sample logs available at *.log files.
