@@ -1,0 +1,1769 @@
+RlAgent (YOU) : book=(count:1 value:8) hat=(count:2 value:1) ball=(count:3 value:0)
+SVAgent (THEM) : book=(count:1 value:2) hat=(count:2 value:1) ball=(count:3 value:2)
+-----
+YOU: i would like the book and the hats . <eos> 
+THEM: i need the hats and you can have the rest <eos> 
+YOU: works for me <eos> 
+THEM: deal <eos> 
+YOU: <selection> 
+-----
+book=1 hat=0 ball=3 book=0 hat=2 ball=0 
+-----
+counter 0, rl reward 8, sv reward 2, rl aver 8.00, sv aver 2.00
+
+
+
+RlAgent (YOU) : book=(count:1 value:0) hat=(count:1 value:10) ball=(count:4 value:0)
+SVAgent (THEM) : book=(count:1 value:4) hat=(count:1 value:2) ball=(count:4 value:1)
+-----
+THEM: i would love the book <eos> 
+YOU: you can have 2 balls if i can have hat and all the books . <eos> 
+THEM: i need hat and 2 balls . you can have the rest <eos> 
+YOU: okay that sounds fine to me , deal <eos> 
+THEM: <selection> 
+-----
+book=1 hat=1 ball=2 book=0 hat=0 ball=2 
+-----
+counter 1, rl reward 10, sv reward 2, rl aver 9.00, sv aver 2.00
+
+
+
+RlAgent (YOU) : book=(count:3 value:2) hat=(count:1 value:4) ball=(count:1 value:0)
+SVAgent (THEM) : book=(count:3 value:0) hat=(count:1 value:7) ball=(count:1 value:3)
+-----
+YOU: all i want the books and hat <eos> 
+THEM: i need the hat and the ball <eos> 
+YOU: i want the hat and two books <eos> 
+THEM: how about i get the hat and you get the three books and the ball <eos> 
+YOU: i want the hat and two books <eos> 
+THEM: no deal <eos> 
+YOU: me too <eos> 
+THEM: sorry , i need the hat and the ball . <eos> 
+YOU: i need that hat and the three books , and 2 balls and a ball <eos> 
+THEM: nope , i have no deal <eos> 
+YOU: i would like all the books and either the hat or the ball <eos> 
+THEM: i can let you have the ball if i get everything else . <eos> 
+YOU: i would like the hat too please ! <eos> 
+THEM: the ball looks only good <eos> 
+YOU: deal <eos> 
+THEM: you got a deal . i will take the hat and ball , you can have the books <eos> 
+YOU: i want the basketball and one other of your hats and one basketball have a nice day <eos> 
+THEM: ok <eos> 
+YOU: i want the hat , and you get the rest <eos> 
+THEM: ok <eos> 
+-----
+book=> hat=> ball=> book=> hat=> ball=> 
+-----
+counter 2, rl reward 0, sv reward 0, rl aver 6.00, sv aver 1.33
+
+
+
+RlAgent (YOU) : book=(count:3 value:0) hat=(count:1 value:5) ball=(count:1 value:5)
+SVAgent (THEM) : book=(count:3 value:2) hat=(count:1 value:3) ball=(count:1 value:1)
+-----
+THEM: i would like the hat and the ball . <eos> 
+YOU: i need ball and hat <eos> 
+THEM: same here cant do i can do <eos> 
+YOU: i really want the ball and the hat <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=1 book=3 hat=0 ball=0 
+-----
+counter 3, rl reward 10, sv reward 6, rl aver 7.00, sv aver 2.50
+
+
+
+RlAgent (YOU) : book=(count:1 value:0) hat=(count:1 value:4) ball=(count:3 value:2)
+SVAgent (THEM) : book=(count:1 value:7) hat=(count:1 value:3) ball=(count:3 value:0)
+-----
+THEM: i would like the book and the hat . <eos> 
+YOU: i want the balls and book and you can have the hat and a ball please <eos> 
+THEM: i need the hat and a ball <eos> 
+YOU: i want the hat and all the balls <eos> 
+THEM: i need a ball and the book . i can let you have the book . <eos> 
+YOU: i want the the balls and hat . <eos> 
+THEM: i can give you the book but , i need the rest . <eos> 
+YOU: i need hat and 2 balls in exchange for you ? <eos> 
+THEM: i need the book as well . . . can we each get a ball and the book ? <eos> 
+YOU: book to me , hat and all the balls . <eos> 
+THEM: i want the balls and book <eos> 
+YOU: i want hat and 2 balls <eos> 
+THEM: i need hat , you take rest <eos> 
+YOU: i want the hat and two balls <eos> 
+THEM: i need at least 1 hat to be a decent deal . <eos> 
+YOU: i can give you all of the balls and one little book to me <eos> 
+THEM: the rest to be so if i get the hat , one ball , and one more to be so you can have the hat if i can be a also deal . <eos> 
+YOU: i need hat and 2 balls <eos> 
+THEM: i must have the hat book <eos> 
+YOU: i want hat and 2 balls . <eos> 
+-----
+book=> hat=> ball=> book=> hat=> ball=> 
+-----
+counter 4, rl reward 0, sv reward 0, rl aver 5.60, sv aver 2.00
+
+
+
+RlAgent (YOU) : book=(count:1 value:4) hat=(count:4 value:1) ball=(count:1 value:2)
+SVAgent (THEM) : book=(count:1 value:2) hat=(count:4 value:0) ball=(count:1 value:8)
+-----
+THEM: what would you like <eos> 
+YOU: only hats and i will take the rest <eos> 
+THEM: i'd like the ball over 5 <eos> 
+YOU: okay , i'll take the rest <eos> 
+THEM: <selection> 
+-----
+book=1 hat=4 ball=0 book=0 hat=0 ball=1 
+-----
+counter 5, rl reward 8, sv reward 8, rl aver 6.00, sv aver 3.00
+
+
+
+RlAgent (YOU) : book=(count:2 value:5) hat=(count:2 value:0) ball=(count:1 value:0)
+SVAgent (THEM) : book=(count:2 value:3) hat=(count:2 value:1) ball=(count:1 value:2)
+-----
+THEM: i need the ball and 1 hat . you can take the books <eos> 
+YOU: deal <eos> 
+THEM: ok deal <eos> 
+YOU: <selection> 
+-----
+book=2 hat=1 ball=0 book=0 hat=1 ball=1 
+-----
+counter 6, rl reward 10, sv reward 3, rl aver 6.57, sv aver 3.00
+
+
+
+RlAgent (YOU) : book=(count:1 value:8) hat=(count:2 value:1) ball=(count:2 value:0)
+SVAgent (THEM) : book=(count:1 value:2) hat=(count:2 value:0) ball=(count:2 value:4)
+-----
+THEM: i would like both balls and both hats . <eos> 
+YOU: i want the hats and book <eos> 
+THEM: i need the book and one ball <eos> 
+YOU: i need the book and 1 hat , so i will take the book and one ball and you can take the rest ? <eos> 
+THEM: i need the hats as well . if i can have the book , the rest is yours <eos> 
+YOU: ok deal <eos> 
+THEM: <selection> 
+-----
+book=0 hat=2 ball=2 book=1 hat=0 ball=0 
+-----
+counter 7, rl reward 2, sv reward 2, rl aver 6.00, sv aver 2.88
+
+
+
+RlAgent (YOU) : book=(count:1 value:0) hat=(count:1 value:10) ball=(count:3 value:0)
+SVAgent (THEM) : book=(count:1 value:6) hat=(count:1 value:1) ball=(count:3 value:1)
+-----
+YOU: i want the hat and book and one ball <eos> 
+THEM: you can have the hat but i need the rest <eos> 
+YOU: i need the balls and hat <eos> 
+THEM: i need book , you take rest <eos> 
+YOU: thats fair to me <eos> 
+THEM: awesome <eos> 
+YOU: hat is the only 4 points now and seems . . . . fair deal . <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=0 book=1 hat=0 ball=3 
+-----
+counter 8, rl reward 10, sv reward 9, rl aver 6.44, sv aver 3.56
+
+
+
+RlAgent (YOU) : book=(count:2 value:3) hat=(count:2 value:2) ball=(count:2 value:0)
+SVAgent (THEM) : book=(count:2 value:1) hat=(count:2 value:3) ball=(count:2 value:1)
+-----
+YOU: i need all of the books and hats <eos> 
+THEM: how about 2 balls and 1 hat for you <eos> 
+YOU: i need the books and the balls <eos> 
+THEM: you can have the balls and one book <eos> 
+YOU: how about i get the balls and hats and you keep the books ? <eos> 
+THEM: deal <eos> 
+YOU: i want one ball to go with the hats <eos> 
+THEM: i need the hats and 1 book <eos> 
+YOU: ok <eos> 
+THEM: great <eos> 
+YOU: <selection> 
+-----
+book=1 hat=0 ball=2 book=1 hat=2 ball=0 
+-----
+counter 9, rl reward 3, sv reward 7, rl aver 6.10, sv aver 3.90
+
+
+
+RlAgent (YOU) : book=(count:1 value:10) hat=(count:4 value:0) ball=(count:1 value:0)
+SVAgent (THEM) : book=(count:1 value:1) hat=(count:4 value:2) ball=(count:1 value:1)
+-----
+YOU: book to me , all else to you <eos> 
+THEM: deal <eos> 
+YOU: perfect <eos> 
+THEM: <selection> 
+-----
+book=1 hat=0 ball=0 book=0 hat=4 ball=1 
+-----
+counter 10, rl reward 10, sv reward 9, rl aver 6.45, sv aver 4.36
+
+
+
+RlAgent (YOU) : book=(count:2 value:1) hat=(count:1 value:2) ball=(count:3 value:2)
+SVAgent (THEM) : book=(count:2 value:3) hat=(count:1 value:1) ball=(count:3 value:1)
+-----
+YOU: hi , i need 3 balls and 1 hat <eos> 
+THEM: ok deal <eos> 
+YOU: <selection> 
+-----
+book=0 hat=1 ball=3 book=2 hat=0 ball=0 
+-----
+counter 11, rl reward 8, sv reward 6, rl aver 6.58, sv aver 4.50
+
+
+
+RlAgent (YOU) : book=(count:1 value:0) hat=(count:2 value:4) ball=(count:2 value:1)
+SVAgent (THEM) : book=(count:1 value:2) hat=(count:2 value:1) ball=(count:2 value:3)
+-----
+YOU: give me hats and book <eos> 
+THEM: i need the balls and one hat <eos> 
+YOU: would you accept the book and 1 hat if i get one hat and 2 balls <eos> 
+THEM: how about i get both balls instead ? <eos> 
+YOU: i want 2 hats and the book <eos> 
+THEM: how about one hat and one ball for you <eos> 
+YOU: i want the hats and the book <eos> 
+THEM: okay <eos> 
+YOU: sorry , i want the hats and the book <eos> 
+THEM: give me one ball and both hats . <eos> 
+YOU: 2 ball for me and the book for me <eos> 
+THEM: deal <eos> 
+YOU: <selection> 
+-----
+book=1 hat=2 ball=1 book=0 hat=0 ball=1 
+-----
+counter 12, rl reward 9, sv reward 3, rl aver 6.77, sv aver 4.38
+
+
+
+RlAgent (YOU) : book=(count:1 value:2) hat=(count:4 value:1) ball=(count:1 value:4)
+SVAgent (THEM) : book=(count:1 value:0) hat=(count:4 value:2) ball=(count:1 value:2)
+-----
+THEM: i would like your hats . <eos> 
+YOU: i want all the hats please please please <eos> 
+THEM: i will give you 1 book and 2 hats <eos> 
+YOU: <selection> 
+-----
+book=1 hat=2 ball=0 book=0 hat=2 ball=1 
+-----
+counter 13, rl reward 4, sv reward 6, rl aver 6.57, sv aver 4.50
+
+
+
+RlAgent (YOU) : book=(count:2 value:1) hat=(count:2 value:3) ball=(count:2 value:1)
+SVAgent (THEM) : book=(count:2 value:1) hat=(count:2 value:2) ball=(count:2 value:2)
+-----
+THEM: i would like the hats and the balls . <eos> 
+YOU: i want 2 balls and one hat <eos> 
+THEM: you can have the balls but i need at least 1 book too <eos> 
+YOU: i want the hats and one ball <eos> 
+THEM: deal <eos> 
+YOU: <selection> 
+-----
+book=0 hat=2 ball=1 book=2 hat=0 ball=1 
+-----
+counter 14, rl reward 7, sv reward 4, rl aver 6.60, sv aver 4.47
+
+
+
+RlAgent (YOU) : book=(count:2 value:1) hat=(count:2 value:3) ball=(count:2 value:1)
+SVAgent (THEM) : book=(count:2 value:2) hat=(count:2 value:0) ball=(count:2 value:3)
+-----
+YOU: i want the hats and one ball <eos> 
+THEM: deal <eos> 
+YOU: i'll take the balls and hats you can have the books <eos> 
+THEM: i need the same . if i can have the hats and you can have the rest <eos> 
+YOU: sure <eos> 
+THEM: deal . <eos> 
+YOU: perfect ! could i please ! <eos> 
+THEM: <selection> 
+-----
+book=2 hat=0 ball=2 book=0 hat=2 ball=0 
+-----
+counter 15, rl reward 4, sv reward 0, rl aver 6.44, sv aver 4.19
+
+
+
+RlAgent (YOU) : book=(count:1 value:3) hat=(count:4 value:0) ball=(count:1 value:7)
+SVAgent (THEM) : book=(count:1 value:0) hat=(count:4 value:2) ball=(count:1 value:2)
+-----
+YOU: i need all the balls and the book <eos> 
+THEM: ill take all the good if i can have the book and ball <eos> 
+YOU: i need the ball and just let you have one . <eos> 
+THEM: hats hold a book for me <eos> 
+YOU: ball to me , all else to me , all else to you <eos> 
+THEM: deal <eos> 
+YOU: thank you ! <eos> 
+THEM: <selection> 
+-----
+book=0 hat=0 ball=1 book=1 hat=4 ball=0 
+-----
+counter 16, rl reward 7, sv reward 8, rl aver 6.47, sv aver 4.41
+
+
+
+RlAgent (YOU) : book=(count:1 value:1) hat=(count:1 value:5) ball=(count:4 value:1)
+SVAgent (THEM) : book=(count:1 value:0) hat=(count:1 value:10) ball=(count:4 value:0)
+-----
+YOU: hat to me , 3 balls you you with book <eos> 
+THEM: deal <eos> 
+YOU: that sounds good . deal <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=1 book=1 hat=0 ball=3 
+-----
+counter 17, rl reward 6, sv reward 0, rl aver 6.44, sv aver 4.17
+
+
+
+RlAgent (YOU) : book=(count:1 value:4) hat=(count:4 value:1) ball=(count:1 value:2)
+SVAgent (THEM) : book=(count:1 value:0) hat=(count:4 value:2) ball=(count:1 value:2)
+-----
+YOU: you can have all the hats if i can have the book and ball <eos> 
+THEM: deal . <eos> 
+YOU: nice , need all 3 hats and the ball <eos> 
+THEM: how about i take the ball and you get the rest ? <eos> 
+YOU: ok <eos> 
+THEM: <selection> 
+-----
+book=1 hat=4 ball=0 book=0 hat=0 ball=1 
+-----
+counter 18, rl reward 8, sv reward 2, rl aver 6.53, sv aver 4.05
+
+
+
+RlAgent (YOU) : book=(count:3 value:2) hat=(count:1 value:4) ball=(count:1 value:0)
+SVAgent (THEM) : book=(count:3 value:1) hat=(count:1 value:3) ball=(count:1 value:4)
+-----
+YOU: i want the hat and two books . <eos> 
+THEM: i can give you the hat but i want everything else . <eos> 
+YOU: i would like the hat and two books you can have the basketball and two books <eos> 
+THEM: i can do that . <eos> 
+YOU: deal . <eos> 
+THEM: <selection> 
+-----
+book=2 hat=1 ball=0 book=1 hat=0 ball=1 
+-----
+counter 19, rl reward 8, sv reward 5, rl aver 6.60, sv aver 4.10
+
+
+
+RlAgent (YOU) : book=(count:3 value:1) hat=(count:1 value:5) ball=(count:1 value:2)
+SVAgent (THEM) : book=(count:3 value:1) hat=(count:1 value:4) ball=(count:1 value:3)
+-----
+YOU: i want the hat and ball <eos> 
+THEM: i need the hat and either 2 books or the ball <eos> 
+YOU: you can have all the balls if i can have the hat and the ball <eos> 
+THEM: i need the hat and ball and you can have the books <eos> 
+YOU: i need the hat and the ball and the ball and one book please <eos> 
+THEM: ok , you can have the hat and the ball <eos> 
+YOU: deal <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=1 book=3 hat=0 ball=0 
+-----
+counter 20, rl reward 7, sv reward 3, rl aver 6.62, sv aver 4.05
+
+
+
+RlAgent (YOU) : book=(count:1 value:7) hat=(count:3 value:1) ball=(count:1 value:0)
+SVAgent (THEM) : book=(count:1 value:4) hat=(count:3 value:0) ball=(count:1 value:6)
+-----
+THEM: i want the ball and book , i'll give you the hats <eos> 
+YOU: i want the book and ball you can have all the hats <eos> 
+THEM: i need the ball and 2 hats <eos> 
+YOU: i need the ball . how about i keep the book instead ? <eos> 
+THEM: deal <eos> 
+YOU: book and ball to me , rest to me . <eos> 
+THEM: deal <eos> 
+YOU: nice <eos> 
+THEM: book and ball , you a hat ? <eos> 
+YOU: i want two hats <eos> 
+THEM: take all the hats <eos> 
+YOU: i want the ball and 2 of the hats <eos> 
+THEM: i need a ball and the book , but you can have the hats <eos> 
+YOU: i really need the book along with the ball ? <eos> 
+THEM: no sorry but would like the book and the hats . <eos> 
+YOU: i want the book and ball please . <eos> 
+THEM: i need the ball and 2 hats <eos> 
+YOU: how about you get all hats and the book <eos> 
+THEM: i need the book and ball you can have the hats ( done <eos> 
+YOU: i want ball and hat <eos> 
+-----
+book=> hat=> ball=> book=> hat=> ball=> 
+-----
+counter 21, rl reward 0, sv reward 0, rl aver 6.32, sv aver 3.86
+
+
+
+RlAgent (YOU) : book=(count:1 value:3) hat=(count:1 value:4) ball=(count:3 value:1)
+SVAgent (THEM) : book=(count:1 value:0) hat=(count:1 value:7) ball=(count:3 value:1)
+-----
+YOU: i need the hat and book <eos> 
+THEM: nope . i need the hat and all balls . <eos> 
+YOU: gimme hat and all balls <eos> 
+THEM: i want the book and 2 balls ? <eos> 
+YOU: i want the hat and all the balls <eos> 
+THEM: i want the hat and 2 balls <eos> 
+YOU: i want the hat and 2 balls <eos> 
+THEM: i must have the hat . you can have everything else if i can have the hat . <eos> 
+YOU: that leaves me at least one . so get one ball , hat , and one book ? <eos> 
+THEM: i will settle for that . <eos> 
+YOU: any chance i could have the book and the hat ? <eos> 
+THEM: ok , you can have the hat if i can have everything else <eos> 
+YOU: that sounds great <eos> 
+THEM: deal <eos> 
+YOU: ok deal ! <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=0 book=1 hat=0 ball=3 
+-----
+counter 22, rl reward 4, sv reward 3, rl aver 6.22, sv aver 3.83
+
+
+
+RlAgent (YOU) : book=(count:3 value:3) hat=(count:1 value:1) ball=(count:1 value:0)
+SVAgent (THEM) : book=(count:3 value:1) hat=(count:1 value:0) ball=(count:1 value:7)
+-----
+YOU: you can have the books if i can have everything else <eos> 
+THEM: i would like the hat and ball , you can have the books <eos> 
+YOU: i want two books and the hat <eos> 
+THEM: i need the ball and two books <eos> 
+YOU: i need the hat and two books <eos> 
+THEM: i need the ball and hat . <eos> 
+YOU: i really need the ball , can i get the hat and ball <eos> 
+THEM: nope . you can have the hat and two books if i can have the ball and one of the other things . <eos> 
+YOU: i want the hat and two books . <eos> 
+THEM: i need the hat . <eos> 
+YOU: i really really would like that more an option , make a deal with you <eos> 
+THEM: sounds good . <eos> 
+YOU: i need the ball and you can have the rest . <eos> 
+THEM: ok deal . <eos> 
+YOU: sounds great ! ! <eos> 
+THEM: <selection> 
+-----
+book=0 hat=0 ball=1 book=3 hat=1 ball=0 
+-----
+counter 23, rl reward 0, sv reward 3, rl aver 5.96, sv aver 3.79
+
+
+
+RlAgent (YOU) : book=(count:4 value:2) hat=(count:1 value:2) ball=(count:1 value:0)
+SVAgent (THEM) : book=(count:4 value:1) hat=(count:1 value:2) ball=(count:1 value:4)
+-----
+THEM: i would like the ball and hat . you can have all the books . <eos> 
+YOU: i want the ball and hat <eos> 
+THEM: i will give you the hat and books and i take the ball and 2 books <eos> 
+YOU: i want the hat and two books <eos> 
+THEM: i need the hat and two books <eos> 
+YOU: i need the books and hat <eos> 
+THEM: is that your final offer ? <eos> 
+YOU: i want the books and hat <eos> 
+THEM: i need the ball . you can have everything else . <eos> 
+YOU: fair enough <eos> 
+THEM: deal <eos> 
+YOU: <selection> 
+-----
+book=4 hat=1 ball=0 book=0 hat=0 ball=1 
+-----
+counter 24, rl reward 10, sv reward 4, rl aver 6.12, sv aver 3.80
+
+
+
+RlAgent (YOU) : book=(count:2 value:1) hat=(count:2 value:3) ball=(count:1 value:2)
+SVAgent (THEM) : book=(count:2 value:0) hat=(count:2 value:1) ball=(count:1 value:8)
+-----
+THEM: i would like the ball and one hat <eos> 
+YOU: i want hats and one book <eos> 
+THEM: i would like to keep the basketball , and i will take two hats and the book <eos> 
+YOU: i want two hats and a book <eos> 
+THEM: i can do that , deal . <eos> 
+YOU: i need the basketball and or i can take the rest . <eos> 
+THEM: you can have the ball but i would like at least 1 book . <eos> 
+YOU: i need hats , the ball and 1 book and the ball seems fair value by me <eos> 
+THEM: i can't agree to that . <eos> 
+YOU: okay i will take the basketball and you take the rest would you 1 book and 3 hats . <eos> 
+THEM: ok <eos> 
+YOU: cool ! <eos> 
+THEM: <selection> 
+-----
+book=1 hat=2 ball=1 book=1 hat=0 ball=0 
+-----
+counter 25, rl reward 9, sv reward 0, rl aver 6.23, sv aver 3.65
+
+
+
+RlAgent (YOU) : book=(count:4 value:2) hat=(count:1 value:0) ball=(count:1 value:2)
+SVAgent (THEM) : book=(count:4 value:2) hat=(count:1 value:2) ball=(count:1 value:0)
+-----
+THEM: you can have the books <eos> 
+YOU: ok <eos> 
+THEM: you can have the hat but , i'll take the rest . <eos> 
+YOU: i want the ball and hat <eos> 
+THEM: deal . <eos> 
+YOU: may i have the hat ? <eos> 
+THEM: yes , no hat no deal <eos> 
+YOU: i want the ball and three books <eos> 
+THEM: i need the ball and 3 books , you can have all the books and hat <eos> 
+YOU: deal <eos> 
+THEM: deal <eos> 
+YOU: <selection> 
+-----
+book=4 hat=1 ball=0 book=0 hat=0 ball=1 
+-----
+counter 26, rl reward 8, sv reward 0, rl aver 6.30, sv aver 3.52
+
+
+
+RlAgent (YOU) : book=(count:3 value:0) hat=(count:1 value:5) ball=(count:1 value:5)
+SVAgent (THEM) : book=(count:3 value:2) hat=(count:1 value:0) ball=(count:1 value:4)
+-----
+YOU: gimme the hat and the ball <eos> 
+THEM: gimme all the books then <eos> 
+YOU: can i have one hat ? <eos> 
+THEM: i can't make a deal without both books <eos> 
+YOU: i will take the ball and 2 books <eos> 
+THEM: <selection> 
+-----
+book=2 hat=0 ball=1 book=1 hat=1 ball=0 
+-----
+counter 27, rl reward 5, sv reward 2, rl aver 6.25, sv aver 3.46
+
+
+
+RlAgent (YOU) : book=(count:1 value:1) hat=(count:4 value:0) ball=(count:1 value:9)
+SVAgent (THEM) : book=(count:1 value:0) hat=(count:4 value:2) ball=(count:1 value:2)
+-----
+YOU: i'll take the balls , you can have the rest <eos> 
+THEM: deal <eos> 
+YOU: can i have the hats instead ? <eos> 
+THEM: i need the hats <eos> 
+YOU: i need all the hat and balls <eos> 
+THEM: i need 1 hat atleast <eos> 
+YOU: i would like the ball and the hat <eos> 
+THEM: i need the book but then i need the hats <eos> 
+YOU: ok deal <eos> 
+THEM: can i have 2 hats and the ball , you can have the other two books ? <eos> 
+YOU: i need 1 ball and all hats <eos> 
+THEM: deal <eos> 
+YOU: ok <eos> 
+THEM: <selection> 
+-----
+book=0 hat=0 ball=1 book=1 hat=4 ball=0 
+-----
+counter 28, rl reward 9, sv reward 8, rl aver 6.34, sv aver 3.62
+
+
+
+RlAgent (YOU) : book=(count:3 value:0) hat=(count:1 value:10) ball=(count:1 value:0)
+SVAgent (THEM) : book=(count:3 value:1) hat=(count:1 value:5) ball=(count:1 value:2)
+-----
+THEM: i would like the hat and the ball . <eos> 
+YOU: i want the hat and the ball . <eos> 
+THEM: you can have the hat if i can have everything else <eos> 
+YOU: i want the hat and two books <eos> 
+THEM: you can have the hat , but i want 2 books <eos> 
+YOU: i want the hat and two books . <eos> 
+THEM: i can agree to that <eos> 
+YOU: <selection> 
+-----
+book=2 hat=1 ball=0 book=1 hat=0 ball=1 
+-----
+counter 29, rl reward 10, sv reward 3, rl aver 6.47, sv aver 3.60
+
+
+
+RlAgent (YOU) : book=(count:1 value:4) hat=(count:1 value:6) ball=(count:4 value:0)
+SVAgent (THEM) : book=(count:1 value:2) hat=(count:1 value:4) ball=(count:4 value:1)
+-----
+YOU: i'd like the book and hat , you keep all the basketballs . <eos> 
+THEM: deal <eos> 
+YOU: <selection> 
+-----
+book=1 hat=1 ball=0 book=0 hat=0 ball=4 
+-----
+counter 30, rl reward 10, sv reward 4, rl aver 6.58, sv aver 3.61
+
+
+
+RlAgent (YOU) : book=(count:3 value:0) hat=(count:2 value:1) ball=(count:1 value:8)
+SVAgent (THEM) : book=(count:3 value:3) hat=(count:2 value:0) ball=(count:1 value:1)
+-----
+YOU: i want the ball and hats <eos> 
+THEM: you can have the hats but , i need the ball <eos> 
+YOU: sorry i need the ball and you can have hats and hats ? <eos> 
+THEM: deal . <eos> 
+YOU: ok <eos> 
+THEM: <selection> 
+-----
+book=0 hat=0 ball=1 book=3 hat=2 ball=0 
+-----
+counter 31, rl reward 8, sv reward 9, rl aver 6.62, sv aver 3.78
+
+
+
+RlAgent (YOU) : book=(count:2 value:2) hat=(count:1 value:0) ball=(count:2 value:3)
+SVAgent (THEM) : book=(count:2 value:1) hat=(count:1 value:2) ball=(count:2 value:3)
+-----
+YOU: i would like all the books and balls <eos> 
+THEM: deal <eos> 
+YOU: can i get 1 book 1 hat and 1 ball <eos> 
+THEM: deal <eos> 
+YOU: right , deal <eos> 
+THEM: <selection> 
+-----
+book=1 hat=0 ball=1 book=1 hat=1 ball=1 
+-----
+counter 32, rl reward 5, sv reward 6, rl aver 6.58, sv aver 3.85
+
+
+
+RlAgent (YOU) : book=(count:3 value:1) hat=(count:1 value:7) ball=(count:1 value:0)
+SVAgent (THEM) : book=(count:3 value:2) hat=(count:1 value:3) ball=(count:1 value:1)
+-----
+THEM: i need the hat and ball <eos> 
+YOU: i need ball and hat <eos> 
+THEM: i need the hat and a book <eos> 
+YOU: i want the hat and two books <eos> 
+THEM: okay <eos> 
+YOU: <selection> 
+-----
+book=2 hat=1 ball=0 book=1 hat=0 ball=1 
+-----
+counter 33, rl reward 9, sv reward 3, rl aver 6.65, sv aver 3.82
+
+
+
+RlAgent (YOU) : book=(count:3 value:0) hat=(count:1 value:2) ball=(count:1 value:8)
+SVAgent (THEM) : book=(count:3 value:1) hat=(count:1 value:5) ball=(count:1 value:2)
+-----
+YOU: i want the ball and hat <eos> 
+THEM: i can give you the books and the hat but i want the ball . <eos> 
+YOU: i want the ball and hat <eos> 
+THEM: i need the hat and 2 books <eos> 
+YOU: i really need the ball and the hat <eos> 
+THEM: alright . <eos> 
+YOU: can you give me all the books and the hat ? <eos> 
+THEM: that sounds like a great deal <eos> 
+YOU: perfect ! <eos> 
+THEM: <selection> 
+-----
+book=3 hat=0 ball=1 book=0 hat=1 ball=0 
+-----
+counter 34, rl reward 8, sv reward 5, rl aver 6.69, sv aver 3.86
+
+
+
+RlAgent (YOU) : book=(count:3 value:1) hat=(count:1 value:3) ball=(count:2 value:2)
+SVAgent (THEM) : book=(count:3 value:0) hat=(count:1 value:4) ball=(count:2 value:3)
+-----
+THEM: can i have the balls and 1 book <eos> 
+YOU: i want the hat and the balls <eos> 
+THEM: deal <eos> 
+YOU: ok deal ! <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=2 book=3 hat=0 ball=0 
+-----
+counter 35, rl reward 7, sv reward 0, rl aver 6.69, sv aver 3.75
+
+
+
+RlAgent (YOU) : book=(count:4 value:0) hat=(count:1 value:4) ball=(count:1 value:6)
+SVAgent (THEM) : book=(count:4 value:1) hat=(count:1 value:5) ball=(count:1 value:1)
+-----
+THEM: what would you like <eos> 
+YOU: i want the hat <eos> 
+THEM: okay . i'll take the ball and 3 books . <eos> 
+YOU: i want ball and hat <eos> 
+THEM: i need the hat you take everything else final offer <eos> 
+YOU: i agree to that . deal ! <eos> 
+THEM: <selection> 
+-----
+book=4 hat=0 ball=1 book=0 hat=1 ball=0 
+-----
+counter 36, rl reward 6, sv reward 5, rl aver 6.68, sv aver 3.78
+
+
+
+RlAgent (YOU) : book=(count:3 value:0) hat=(count:2 value:2) ball=(count:1 value:6)
+SVAgent (THEM) : book=(count:3 value:2) hat=(count:2 value:0) ball=(count:1 value:4)
+-----
+THEM: i would like the ball and the books . <eos> 
+YOU: i need hats and ball <eos> 
+THEM: i need the hats . you can have the books and the ball . <eos> 
+YOU: deal <eos> 
+THEM: okay thank you ! <eos> 
+YOU: sounds good <eos> 
+THEM: ok deal . <eos> 
+YOU: <selection> 
+-----
+book=3 hat=0 ball=1 book=0 hat=2 ball=0 
+-----
+counter 37, rl reward 6, sv reward 0, rl aver 6.66, sv aver 3.68
+
+
+
+RlAgent (YOU) : book=(count:1 value:7) hat=(count:3 value:0) ball=(count:3 value:1)
+SVAgent (THEM) : book=(count:1 value:4) hat=(count:3 value:1) ball=(count:3 value:1)
+-----
+THEM: i would like the book and the hats . <eos> 
+YOU: you have have the balls , and i want the hats and book <eos> 
+THEM: i would like the hats . deal you get book and 2 hats ? <eos> 
+YOU: okay deal . <eos> 
+THEM: <selection> 
+-----
+book=1 hat=2 ball=3 book=0 hat=1 ball=0 
+-----
+counter 38, rl reward 10, sv reward 1, rl aver 6.74, sv aver 3.62
+
+
+
+RlAgent (YOU) : book=(count:2 value:4) hat=(count:1 value:2) ball=(count:3 value:0)
+SVAgent (THEM) : book=(count:2 value:0) hat=(count:1 value:1) ball=(count:3 value:3)
+-----
+THEM: i would like the balls , you can have the rest <eos> 
+YOU: deal ! <eos> 
+THEM: ok <eos> 
+YOU: <selection> 
+-----
+book=2 hat=1 ball=0 book=0 hat=0 ball=3 
+-----
+counter 39, rl reward 10, sv reward 9, rl aver 6.83, sv aver 3.75
+
+
+
+RlAgent (YOU) : book=(count:2 value:1) hat=(count:3 value:1) ball=(count:1 value:5)
+SVAgent (THEM) : book=(count:2 value:2) hat=(count:3 value:0) ball=(count:1 value:6)
+-----
+YOU: i'd like the hats , the rest to you <eos> 
+THEM: okay , deal <eos> 
+YOU: great , 3 hats , 1 book for you ! <eos> 
+THEM: <selection> 
+-----
+book=0 hat=3 ball=0 book=2 hat=0 ball=1 
+-----
+counter 40, rl reward 3, sv reward 10, rl aver 6.73, sv aver 3.90
+
+
+
+RlAgent (YOU) : book=(count:3 value:0) hat=(count:2 value:1) ball=(count:1 value:8)
+SVAgent (THEM) : book=(count:3 value:2) hat=(count:2 value:1) ball=(count:1 value:2)
+-----
+THEM: i would like the hats and the ball . <eos> 
+YOU: i want the ball and the hats <eos> 
+THEM: you can have the hats but , i need the ball . how does that hat is fine with a bit <eos> 
+YOU: that sounds great ! deal ! <eos> 
+THEM: i'll take the rest then . <eos> 
+YOU: ok <eos> 
+THEM: <selection> 
+-----
+book=0 hat=0 ball=1 book=3 hat=2 ball=0 
+-----
+counter 41, rl reward 8, sv reward 8, rl aver 6.76, sv aver 4.00
+
+
+
+RlAgent (YOU) : book=(count:1 value:3) hat=(count:1 value:7) ball=(count:3 value:0)
+SVAgent (THEM) : book=(count:1 value:1) hat=(count:1 value:3) ball=(count:3 value:2)
+-----
+THEM: i would like all the balls and the hat . <eos> 
+YOU: i also need the hat <eos> 
+THEM: i can give you the hat if i can have the rest . <eos> 
+YOU: okay . i'll take the rest ! <eos> 
+THEM: deal <eos> 
+YOU: <selection> 
+-----
+book=0 hat=1 ball=0 book=1 hat=0 ball=3 
+-----
+counter 42, rl reward 7, sv reward 7, rl aver 6.77, sv aver 4.07
+
+
+
+RlAgent (YOU) : book=(count:2 value:1) hat=(count:1 value:6) ball=(count:2 value:1)
+SVAgent (THEM) : book=(count:2 value:0) hat=(count:1 value:0) ball=(count:2 value:5)
+-----
+YOU: i want two balls and one book <eos> 
+THEM: deal <eos> 
+YOU: i need hat and 2 balls <eos> 
+THEM: give me one ball <eos> 
+YOU: an all <eos> 
+THEM: deal <eos> 
+YOU: <selection> 
+-----
+book=0 hat=1 ball=1 book=2 hat=0 ball=1 
+-----
+counter 43, rl reward 7, sv reward 5, rl aver 6.77, sv aver 4.09
+
+
+
+RlAgent (YOU) : book=(count:2 value:0) hat=(count:1 value:0) ball=(count:2 value:5)
+SVAgent (THEM) : book=(count:2 value:2) hat=(count:1 value:4) ball=(count:2 value:1)
+-----
+THEM: i would like the hat and both balls . <eos> 
+YOU: i want hat and 2 balls . <eos> 
+THEM: i can agree to that <eos> 
+YOU: i want the balls and hat <eos> 
+THEM: ok <eos> 
+YOU: you want the books ? <eos> 
+THEM: no - 3 books . 2 balls and a little books for me if no would read more to me <eos> 
+YOU: if i do you let me know , if i can't have the hat , but i already gave you that when me ! <eos> 
+THEM: no deal <eos> 
+YOU: me too ! <eos> 
+THEM: how about you take both books and i keep the rest <eos> 
+YOU: i will take the balls and one book . <eos> 
+THEM: i need the hat and at least 1 ball <eos> 
+YOU: i want the hat and the balls you can have the books <eos> 
+THEM: i need the hat as well . can we split the difference if i get the hat and one book you can have the books and 1 ball <eos> 
+YOU: i want the balls and hat <eos> 
+THEM: deal <eos> 
+YOU: <selection> 
+-----
+book=0 hat=1 ball=2 book=2 hat=0 ball=0 
+-----
+counter 44, rl reward 10, sv reward 4, rl aver 6.84, sv aver 4.09
+
+
+
+RlAgent (YOU) : book=(count:1 value:1) hat=(count:1 value:9) ball=(count:4 value:0)
+SVAgent (THEM) : book=(count:1 value:2) hat=(count:1 value:0) ball=(count:4 value:2)
+-----
+YOU: i want the hat and 2 balls <eos> 
+THEM: i can do that <eos> 
+YOU: i can live with that . deal . you get the rest ! <eos> 
+THEM: no ; i will accept . <eos> 
+YOU: <selection> 
+-----
+book=0 hat=1 ball=2 book=1 hat=0 ball=2 
+-----
+counter 45, rl reward 9, sv reward 6, rl aver 6.89, sv aver 4.13
+
+
+
+RlAgent (YOU) : book=(count:1 value:2) hat=(count:2 value:4) ball=(count:2 value:0)
+SVAgent (THEM) : book=(count:1 value:0) hat=(count:2 value:4) ball=(count:2 value:1)
+-----
+THEM: i would like the hats and the balls . <eos> 
+YOU: i want two hats <eos> 
+THEM: have a good deal to me , can i have the hats and book ? <eos> 
+YOU: ok <eos> 
+THEM: deal <eos> 
+YOU: ok 2 hats and one ball for me <eos> 
+THEM: <selection> 
+-----
+book=0 hat=0 ball=1 book=1 hat=2 ball=1 
+-----
+counter 46, rl reward 0, sv reward 9, rl aver 6.74, sv aver 4.23
+
+
+
+RlAgent (YOU) : book=(count:2 value:0) hat=(count:1 value:4) ball=(count:2 value:3)
+SVAgent (THEM) : book=(count:2 value:3) hat=(count:1 value:0) ball=(count:2 value:2)
+-----
+YOU: ill take the balls and hat and you can have all the books . <eos> 
+THEM: i need both books <eos> 
+YOU: that's all i need . i can let you have one book and one basketball <eos> 
+THEM: i can work with that . <eos> 
+YOU: i want the hat and the balls , you take both books <eos> 
+THEM: well i wanted 1 hat and the balls ? <eos> 
+YOU: you get hat and two balls , i'll take my hat if you want ? <eos> 
+THEM: yes <eos> 
+YOU: because i need two balls and the hat <eos> 
+THEM: deal . <eos> 
+YOU: its about that . <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=2 book=2 hat=0 ball=0 
+-----
+counter 47, rl reward 10, sv reward 6, rl aver 6.81, sv aver 4.27
+
+
+
+RlAgent (YOU) : book=(count:3 value:2) hat=(count:1 value:2) ball=(count:2 value:1)
+SVAgent (THEM) : book=(count:3 value:0) hat=(count:1 value:10) ball=(count:2 value:0)
+-----
+YOU: i would like the books and the hat . <eos> 
+THEM: i need the hat and the books you can have the balls <eos> 
+YOU: i really need the hat and the books <eos> 
+THEM: oh okay , i'll take the books , you can have the rest . <eos> 
+YOU: deal . <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=2 book=3 hat=0 ball=0 
+-----
+counter 48, rl reward 4, sv reward 0, rl aver 6.76, sv aver 4.18
+
+
+
+RlAgent (YOU) : book=(count:2 value:1) hat=(count:1 value:2) ball=(count:2 value:3)
+SVAgent (THEM) : book=(count:2 value:3) hat=(count:1 value:0) ball=(count:2 value:2)
+-----
+THEM: i need the books you can have everything else <eos> 
+YOU: i want 2 balls and 1 hat <eos> 
+THEM: okay <eos> 
+YOU: ok deal <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=2 book=2 hat=0 ball=0 
+-----
+counter 49, rl reward 8, sv reward 6, rl aver 6.78, sv aver 4.22
+
+
+
+RlAgent (YOU) : book=(count:1 value:0) hat=(count:3 value:2) ball=(count:1 value:4)
+SVAgent (THEM) : book=(count:1 value:5) hat=(count:3 value:0) ball=(count:1 value:5)
+-----
+THEM: i want the book and ball and a hat <eos> 
+YOU: i want all the balls , only , can i have the book and the ball ? <eos> 
+THEM: can't do that , i need the ball and 2 hats <eos> 
+YOU: i'll take the hats and ball . you take the book . <eos> 
+THEM: <selection> 
+-----
+book=0 hat=3 ball=1 book=1 hat=0 ball=0 
+-----
+counter 50, rl reward 10, sv reward 5, rl aver 6.84, sv aver 4.24
+
+
+
+RlAgent (YOU) : book=(count:3 value:0) hat=(count:1 value:5) ball=(count:1 value:5)
+SVAgent (THEM) : book=(count:3 value:1) hat=(count:1 value:5) ball=(count:1 value:2)
+-----
+YOU: i want the ball and hat . <eos> 
+THEM: ok <eos> 
+YOU: i want the ball and hat <eos> 
+THEM: great <eos> 
+YOU: <selection> 
+-----
+book=0 hat=1 ball=1 book=3 hat=0 ball=0 
+-----
+counter 51, rl reward 10, sv reward 3, rl aver 6.90, sv aver 4.21
+
+
+
+RlAgent (YOU) : book=(count:1 value:2) hat=(count:1 value:5) ball=(count:3 value:1)
+SVAgent (THEM) : book=(count:1 value:1) hat=(count:1 value:3) ball=(count:3 value:2)
+-----
+YOU: i want the hat and all the balls <eos> 
+THEM: i want hat <eos> 
+YOU: i want the hat and 2 balls <eos> 
+THEM: i will take the hat and 2 balls . <eos> 
+YOU: i want the hat and 2 balls <eos> 
+THEM: deal <eos> 
+YOU: i want the balls <eos> 
+THEM: deal . <eos> 
+YOU: ok deal <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=2 book=1 hat=0 ball=1 
+-----
+counter 52, rl reward 7, sv reward 3, rl aver 6.91, sv aver 4.19
+
+
+
+RlAgent (YOU) : book=(count:1 value:6) hat=(count:1 value:1) ball=(count:3 value:1)
+SVAgent (THEM) : book=(count:1 value:7) hat=(count:1 value:0) ball=(count:3 value:1)
+-----
+YOU: i want the book and the hat . <eos> 
+THEM: i need the hat and a ball , you can have the rest <eos> 
+YOU: deal <eos> 
+THEM: great , thanks ! <eos> 
+YOU: <selection> 
+-----
+book=1 hat=0 ball=2 book=0 hat=1 ball=1 
+-----
+counter 53, rl reward 8, sv reward 1, rl aver 6.93, sv aver 4.13
+
+
+
+RlAgent (YOU) : book=(count:3 value:1) hat=(count:2 value:2) ball=(count:1 value:3)
+SVAgent (THEM) : book=(count:3 value:1) hat=(count:2 value:1) ball=(count:1 value:5)
+-----
+THEM: i need the ball . you can have the rest . <eos> 
+YOU: okay <eos> 
+THEM: thank you ! <eos> 
+YOU: <selection> 
+-----
+book=3 hat=2 ball=0 book=0 hat=0 ball=1 
+-----
+counter 54, rl reward 7, sv reward 5, rl aver 6.93, sv aver 4.15
+
+
+
+RlAgent (YOU) : book=(count:3 value:1) hat=(count:1 value:1) ball=(count:1 value:6)
+SVAgent (THEM) : book=(count:3 value:1) hat=(count:1 value:7) ball=(count:1 value:0)
+-----
+THEM: i need the hat and the ball <eos> 
+YOU: i want the ball and hat <eos> 
+THEM: i need the hat and two books <eos> 
+YOU: i want the ball and hat . you keep the books <eos> 
+THEM: i need the hat and the ball and you can have the books <eos> 
+YOU: that sounds great to me ! <eos> 
+THEM: ok , that is a good deal : ) <eos> 
+YOU: deal <eos> 
+THEM: gimme hat <eos> 
+YOU: no <eos> 
+THEM: i will take the hat and you can have the rest <eos> 
+YOU: ok deal <eos> 
+THEM: ok <eos> 
+YOU: good <eos> 
+THEM: <selection> 
+-----
+book=3 hat=0 ball=1 book=0 hat=1 ball=0 
+-----
+counter 55, rl reward 9, sv reward 7, rl aver 6.96, sv aver 4.20
+
+
+
+RlAgent (YOU) : book=(count:3 value:0) hat=(count:1 value:5) ball=(count:1 value:5)
+SVAgent (THEM) : book=(count:3 value:1) hat=(count:1 value:2) ball=(count:1 value:5)
+-----
+THEM: i would like the hat and the ball . <eos> 
+YOU: i want the ball and hat <eos> 
+THEM: i need the same . i will take everything else . <eos> 
+YOU: i want the hat and basketball you can have all the books <eos> 
+THEM: deal <eos> 
+YOU: its yours ! <eos> 
+THEM: i can go hat but i'm going to settle for 1 <eos> 
+YOU: i want that ball , and the hat <eos> 
+THEM: i can work with a hat , two books , and a book and a book <eos> 
+YOU: i want the ball and hat <eos> 
+THEM: deal . <eos> 
+YOU: great , <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=1 book=3 hat=0 ball=0 
+-----
+counter 56, rl reward 10, sv reward 3, rl aver 7.02, sv aver 4.18
+
+
+
+RlAgent (YOU) : book=(count:2 value:0) hat=(count:2 value:1) ball=(count:1 value:8)
+SVAgent (THEM) : book=(count:2 value:1) hat=(count:2 value:2) ball=(count:1 value:4)
+-----
+THEM: i can offer the ball and 1 hat <eos> 
+YOU: i want two hats and the ball and you can have all the hats <eos> 
+THEM: deal . <eos> 
+YOU: i'll take the rest , deal <eos> 
+THEM: <selection> 
+-----
+book=0 hat=2 ball=1 book=2 hat=0 ball=0 
+-----
+counter 57, rl reward 10, sv reward 2, rl aver 7.07, sv aver 4.14
+
+
+
+RlAgent (YOU) : book=(count:1 value:0) hat=(count:2 value:2) ball=(count:3 value:2)
+SVAgent (THEM) : book=(count:1 value:3) hat=(count:2 value:2) ball=(count:3 value:1)
+-----
+YOU: i'll take balls if you want book and hats <eos> 
+THEM: i will give you the book and 1 hat <eos> 
+YOU: sounds like a deal ! <eos> 
+THEM: deal <eos> 
+YOU: <selection> 
+-----
+book=1 hat=1 ball=0 book=0 hat=1 ball=3 
+-----
+counter 58, rl reward 2, sv reward 5, rl aver 6.98, sv aver 4.15
+
+
+
+RlAgent (YOU) : book=(count:1 value:3) hat=(count:3 value:1) ball=(count:2 value:2)
+SVAgent (THEM) : book=(count:1 value:6) hat=(count:3 value:0) ball=(count:2 value:2)
+-----
+YOU: i'll take the book and the balls if you want the hats <eos> 
+THEM: i need the hats . you can have the rest . <eos> 
+YOU: deal <eos> 
+THEM: <selection> 
+-----
+book=1 hat=0 ball=2 book=0 hat=3 ball=0 
+-----
+counter 59, rl reward 7, sv reward 0, rl aver 6.98, sv aver 4.08
+
+
+
+RlAgent (YOU) : book=(count:1 value:1) hat=(count:4 value:2) ball=(count:1 value:1)
+SVAgent (THEM) : book=(count:1 value:4) hat=(count:4 value:0) ball=(count:1 value:6)
+-----
+THEM: i'd like the ball and the hats . <eos> 
+YOU: i can't give up the hats . would you accept the book and ball and i get all of the hats <eos> 
+THEM: i can do that <eos> 
+YOU: thank you ! deal <eos> 
+THEM: <selection> 
+-----
+book=0 hat=4 ball=0 book=1 hat=0 ball=1 
+-----
+counter 60, rl reward 8, sv reward 10, rl aver 7.00, sv aver 4.18
+
+
+
+RlAgent (YOU) : book=(count:4 value:1) hat=(count:1 value:4) ball=(count:1 value:2)
+SVAgent (THEM) : book=(count:4 value:2) hat=(count:1 value:1) ball=(count:1 value:1)
+-----
+YOU: i want hat & ball to you <eos> 
+THEM: i don't love - at 3 books but i am going to take all of the books <eos> 
+YOU: just the books to me <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=0 book=4 hat=0 ball=1 
+-----
+counter 61, rl reward 4, sv reward 9, rl aver 6.95, sv aver 4.26
+
+
+
+RlAgent (YOU) : book=(count:2 value:0) hat=(count:2 value:3) ball=(count:2 value:2)
+SVAgent (THEM) : book=(count:2 value:4) hat=(count:2 value:0) ball=(count:2 value:1)
+-----
+YOU: i want the balls and hats <eos> 
+THEM: you can have the balls but i would like the hats and at least one book <eos> 
+YOU: i would like two balls and one hat and you can have the rest . deal ? <eos> 
+THEM: sure , deal <eos> 
+YOU: <selection> 
+-----
+book=0 hat=1 ball=2 book=2 hat=1 ball=0 
+-----
+counter 62, rl reward 7, sv reward 8, rl aver 6.95, sv aver 4.32
+
+
+
+RlAgent (YOU) : book=(count:3 value:0) hat=(count:1 value:4) ball=(count:1 value:6)
+SVAgent (THEM) : book=(count:3 value:1) hat=(count:1 value:0) ball=(count:1 value:7)
+-----
+YOU: i want the ball and hat <eos> 
+THEM: sorry , i can't give up the ball <eos> 
+YOU: i want the hat and ball and one book <eos> 
+THEM: sorry i need three books , i need the ball . <eos> 
+YOU: ok i want the ball and hat <eos> 
+THEM: deal <eos> 
+YOU: ok deal <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=1 book=3 hat=0 ball=0 
+-----
+counter 63, rl reward 10, sv reward 3, rl aver 7.00, sv aver 4.30
+
+
+
+RlAgent (YOU) : book=(count:4 value:1) hat=(count:1 value:2) ball=(count:1 value:4)
+SVAgent (THEM) : book=(count:4 value:2) hat=(count:1 value:2) ball=(count:1 value:0)
+-----
+THEM: i would like the hat and the ball . <eos> 
+YOU: i want the ball and hat <eos> 
+THEM: i will take the hat and ball you can have all the books <eos> 
+YOU: that won't work for me at least i need the hat and 3 books <eos> 
+THEM: i would like the hat and 2 books <eos> 
+YOU: i want the ball and hat you can have all the books <eos> 
+THEM: deal . <eos> 
+YOU: that's the only deal that works <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=1 book=4 hat=0 ball=0 
+-----
+counter 64, rl reward 6, sv reward 8, rl aver 6.98, sv aver 4.35
+
+
+
+RlAgent (YOU) : book=(count:1 value:0) hat=(count:1 value:4) ball=(count:3 value:2)
+SVAgent (THEM) : book=(count:1 value:2) hat=(count:1 value:2) ball=(count:3 value:2)
+-----
+THEM: i would like the balls and the book . <eos> 
+YOU: i want the hat and 2 balls <eos> 
+THEM: i will give you the hat if i can have everything else <eos> 
+YOU: i need the book and the hat <eos> 
+THEM: okay . <eos> 
+YOU: im really need to my cowboy hats . are you willing to make another deal . <eos> 
+THEM: i will give you the book and a ball if i can have the rest . <eos> 
+YOU: perfect . i want two balls <eos> 
+THEM: deal <eos> 
+YOU: <selection> 
+-----
+book=0 hat=0 ball=2 book=1 hat=1 ball=1 
+-----
+counter 65, rl reward 4, sv reward 6, rl aver 6.94, sv aver 4.38
+
+
+
+RlAgent (YOU) : book=(count:2 value:1) hat=(count:3 value:1) ball=(count:1 value:5)
+SVAgent (THEM) : book=(count:2 value:3) hat=(count:3 value:0) ball=(count:1 value:4)
+-----
+THEM: i would like the books and ball <eos> 
+YOU: i need the ball <eos> 
+THEM: can i have one ball instead of the rest . <eos> 
+YOU: i value on the ball . . i need two hats and the ball . <eos> 
+THEM: the hats are worthless to me . i can do the hats and 1 book . <eos> 
+YOU: naw you want to get the hats and i have the books and the ball . <eos> 
+THEM: deal . <eos> 
+YOU: perfect ! : - i'll keep the ball . <eos> 
+THEM: <selection> 
+-----
+book=0 hat=0 ball=1 book=2 hat=3 ball=0 
+-----
+counter 66, rl reward 5, sv reward 6, rl aver 6.91, sv aver 4.40
+
+
+
+RlAgent (YOU) : book=(count:4 value:2) hat=(count:1 value:0) ball=(count:1 value:2)
+SVAgent (THEM) : book=(count:4 value:2) hat=(count:1 value:1) ball=(count:1 value:1)
+-----
+THEM: i would like the books . <eos> 
+YOU: i would like the hats and ball and the books . <eos> 
+THEM: i would like the hat and the ball and you can have all the books <eos> 
+YOU: deal <eos> 
+THEM: <selection> 
+-----
+book=4 hat=0 ball=0 book=0 hat=1 ball=1 
+-----
+counter 67, rl reward 8, sv reward 2, rl aver 6.93, sv aver 4.37
+
+
+
+RlAgent (YOU) : book=(count:1 value:2) hat=(count:3 value:2) ball=(count:1 value:2)
+SVAgent (THEM) : book=(count:1 value:0) hat=(count:3 value:1) ball=(count:1 value:7)
+-----
+YOU: i want the hats and ball <eos> 
+THEM: can i have the book and the hats ? <eos> 
+YOU: i want the hats and ball <eos> 
+THEM: i want the ball and two hats <eos> 
+YOU: i need the ball and the book <eos> 
+THEM: i can do that if i take the hats and the ball . <eos> 
+YOU: i want book and hats <eos> 
+THEM: i need hats , you can have the rest <eos> 
+YOU: i want the ball and two hats <eos> 
+THEM: deal <eos> 
+YOU: i want the hats and book <eos> 
+THEM: you can have the hats and the ball . i will take the ball <eos> 
+YOU: i would like the hats and the book ! <eos> 
+THEM: how about i get the ball and 1 hat and you get the book and 1 hat <eos> 
+YOU: deal <eos> 
+THEM: <selection> 
+-----
+book=1 hat=2 ball=0 book=0 hat=1 ball=1 
+-----
+counter 68, rl reward 6, sv reward 8, rl aver 6.91, sv aver 4.42
+
+
+
+RlAgent (YOU) : book=(count:1 value:0) hat=(count:4 value:2) ball=(count:1 value:2)
+SVAgent (THEM) : book=(count:1 value:2) hat=(count:4 value:0) ball=(count:1 value:8)
+-----
+THEM: how about i keep the book , you can have the rest . <eos> 
+YOU: ok <eos> 
+THEM: could i get the book and a hat <eos> 
+YOU: i want all the hats and the ball <eos> 
+THEM: okay sounds fine to that is fair . <eos> 
+YOU: deal <eos> 
+THEM: <selection> 
+-----
+book=0 hat=4 ball=1 book=1 hat=0 ball=0 
+-----
+counter 69, rl reward 10, sv reward 2, rl aver 6.96, sv aver 4.39
+
+
+
+RlAgent (YOU) : book=(count:2 value:1) hat=(count:1 value:2) ball=(count:2 value:3)
+SVAgent (THEM) : book=(count:2 value:3) hat=(count:1 value:4) ball=(count:2 value:0)
+-----
+THEM: i need the hat and a book , you can have the rest <eos> 
+YOU: deal ! <eos> 
+THEM: perfect <eos> 
+YOU: <selection> 
+-----
+book=1 hat=0 ball=2 book=1 hat=1 ball=0 
+-----
+counter 70, rl reward 7, sv reward 7, rl aver 6.96, sv aver 4.42
+
+
+
+RlAgent (YOU) : book=(count:1 value:4) hat=(count:2 value:3) ball=(count:3 value:0)
+SVAgent (THEM) : book=(count:1 value:5) hat=(count:2 value:1) ball=(count:3 value:1)
+-----
+YOU: id like book and hats . <eos> 
+THEM: i need the hats and you can have the rest <eos> 
+YOU: i cannot give up the balls either . <eos> 
+THEM: so you just want the book ? <eos> 
+YOU: that sounds fair to me . <eos> 
+THEM: okay deal . agreed . <eos> 
+YOU: perfect ! deal ! <eos> 
+THEM: <selection> 
+-----
+book=1 hat=0 ball=0 book=0 hat=2 ball=3 
+-----
+counter 71, rl reward 4, sv reward 5, rl aver 6.92, sv aver 4.43
+
+
+
+RlAgent (YOU) : book=(count:3 value:1) hat=(count:1 value:5) ball=(count:1 value:2)
+SVAgent (THEM) : book=(count:3 value:0) hat=(count:1 value:7) ball=(count:1 value:3)
+-----
+THEM: i'd like the hat and the ball . <eos> 
+YOU: i want the hats and the ball and book <eos> 
+THEM: is that your final offer ? <eos> 
+YOU: yup <eos> 
+THEM: i dont know what i can deal if i am a hat and a book , i'm looking for on reading . would you take a hat and a book ? <eos> 
+YOU: ok sounds good <eos> 
+THEM: <selection> 
+-----
+book=1 hat=1 ball=0 book=2 hat=0 ball=1 
+-----
+counter 72, rl reward 6, sv reward 3, rl aver 6.90, sv aver 4.41
+
+
+
+RlAgent (YOU) : book=(count:2 value:1) hat=(count:2 value:2) ball=(count:2 value:2)
+SVAgent (THEM) : book=(count:2 value:3) hat=(count:2 value:0) ball=(count:2 value:2)
+-----
+YOU: i'd like all the hats and books <eos> 
+THEM: you can have two books and one hat if i can have both balls and a hat . <eos> 
+YOU: deal <eos> 
+THEM: <selection> 
+-----
+book=2 hat=1 ball=0 book=0 hat=1 ball=2 
+-----
+counter 73, rl reward 4, sv reward 4, rl aver 6.86, sv aver 4.41
+
+
+
+RlAgent (YOU) : book=(count:3 value:1) hat=(count:1 value:3) ball=(count:1 value:4)
+SVAgent (THEM) : book=(count:3 value:2) hat=(count:1 value:2) ball=(count:1 value:2)
+-----
+THEM: i would like the books and the ball ? <eos> 
+YOU: i need ball and hat <eos> 
+THEM: i can give you the hat and one book . i need the ball and the books <eos> 
+YOU: would you accept taking all three books and i keep all the hats ? <eos> 
+THEM: deal <eos> 
+YOU: sounds great ! deal ! <eos> 
+THEM: i just accept . <eos> 
+YOU: sure <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=0 book=3 hat=0 ball=1 
+-----
+counter 74, rl reward 3, sv reward 8, rl aver 6.81, sv aver 4.45
+
+
+
+RlAgent (YOU) : book=(count:2 value:1) hat=(count:3 value:2) ball=(count:1 value:2)
+SVAgent (THEM) : book=(count:2 value:1) hat=(count:3 value:2) ball=(count:1 value:2)
+-----
+THEM: i would like the hats , you may have the rest . <eos> 
+YOU: that sounds fair to me , <eos> 
+THEM: ok so how about i take it then . <eos> 
+YOU: i need all hats and the ball <eos> 
+THEM: sure <eos> 
+YOU: <selection> 
+-----
+book=0 hat=3 ball=1 book=2 hat=0 ball=0 
+-----
+counter 75, rl reward 8, sv reward 2, rl aver 6.83, sv aver 4.42
+
+
+
+RlAgent (YOU) : book=(count:1 value:0) hat=(count:4 value:1) ball=(count:1 value:6)
+SVAgent (THEM) : book=(count:1 value:4) hat=(count:4 value:0) ball=(count:1 value:6)
+-----
+YOU: if i can have all of the hats and the book you can have the ball <eos> 
+THEM: i really need the ball - too . <eos> 
+YOU: you can have the book if i get everything else <eos> 
+THEM: i need the book but then you can have the ball if i can keep everything else <eos> 
+YOU: ok deal <eos> 
+THEM: <selection> 
+-----
+book=0 hat=0 ball=1 book=1 hat=4 ball=0 
+-----
+counter 76, rl reward 6, sv reward 4, rl aver 6.82, sv aver 4.42
+
+
+
+RlAgent (YOU) : book=(count:2 value:1) hat=(count:1 value:2) ball=(count:2 value:3)
+SVAgent (THEM) : book=(count:2 value:5) hat=(count:1 value:0) ball=(count:2 value:0)
+-----
+THEM: i'll take the books , you can have everything else <eos> 
+YOU: sounds great ! deal ! ! <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=2 book=2 hat=0 ball=0 
+-----
+counter 77, rl reward 8, sv reward 10, rl aver 6.83, sv aver 4.49
+
+
+
+RlAgent (YOU) : book=(count:1 value:4) hat=(count:3 value:2) ball=(count:1 value:0)
+SVAgent (THEM) : book=(count:1 value:0) hat=(count:3 value:1) ball=(count:1 value:7)
+-----
+YOU: i want the hats and the book please <eos> 
+THEM: deal <eos> 
+YOU: perfect <eos> 
+THEM: i accept your first deal . <eos> 
+YOU: <selection> 
+-----
+book=1 hat=3 ball=0 book=0 hat=0 ball=1 
+-----
+counter 78, rl reward 10, sv reward 7, rl aver 6.87, sv aver 4.52
+
+
+
+RlAgent (YOU) : book=(count:1 value:1) hat=(count:1 value:3) ball=(count:3 value:2)
+SVAgent (THEM) : book=(count:1 value:0) hat=(count:1 value:10) ball=(count:3 value:0)
+-----
+YOU: the hat and two balls for me to even get to 6 <eos> 
+THEM: deal . <eos> 
+YOU: good day ! <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=2 book=1 hat=0 ball=1 
+-----
+counter 79, rl reward 7, sv reward 0, rl aver 6.88, sv aver 4.46
+
+
+
+RlAgent (YOU) : book=(count:1 value:1) hat=(count:1 value:1) ball=(count:4 value:2)
+SVAgent (THEM) : book=(count:1 value:3) hat=(count:1 value:7) ball=(count:4 value:0)
+-----
+THEM: i would like the hat , and a book . <eos> 
+YOU: you can have the book if i can have the rest <eos> 
+THEM: okay <eos> 
+YOU: <selection> 
+-----
+book=0 hat=1 ball=4 book=1 hat=0 ball=0 
+-----
+counter 80, rl reward 9, sv reward 3, rl aver 6.90, sv aver 4.44
+
+
+
+RlAgent (YOU) : book=(count:2 value:3) hat=(count:3 value:1) ball=(count:1 value:1)
+SVAgent (THEM) : book=(count:2 value:0) hat=(count:3 value:3) ball=(count:1 value:1)
+-----
+THEM: i'll take the hats and give you the rest . <eos> 
+YOU: deal <eos> 
+THEM: cool deal ! <eos> 
+YOU: <selection> 
+-----
+book=2 hat=0 ball=1 book=0 hat=3 ball=0 
+-----
+counter 81, rl reward 7, sv reward 9, rl aver 6.90, sv aver 4.50
+
+
+
+RlAgent (YOU) : book=(count:3 value:1) hat=(count:1 value:7) ball=(count:1 value:0)
+SVAgent (THEM) : book=(count:3 value:0) hat=(count:1 value:3) ball=(count:1 value:7)
+-----
+THEM: i will take the ball . you can have the rest . <eos> 
+YOU: deal <eos> 
+THEM: <selection> 
+-----
+book=3 hat=1 ball=0 book=0 hat=0 ball=1 
+-----
+counter 82, rl reward 10, sv reward 7, rl aver 6.94, sv aver 4.53
+
+
+
+RlAgent (YOU) : book=(count:1 value:0) hat=(count:3 value:2) ball=(count:2 value:2)
+SVAgent (THEM) : book=(count:1 value:4) hat=(count:3 value:2) ball=(count:2 value:0)
+-----
+THEM: i just want the book <eos> 
+YOU: i really want 2 balls and 2 hats <eos> 
+THEM: could i take the book and 2 hats ? <eos> 
+YOU: deal <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=2 book=1 hat=2 ball=0 
+-----
+counter 83, rl reward 6, sv reward 8, rl aver 6.93, sv aver 4.57
+
+
+
+RlAgent (YOU) : book=(count:1 value:8) hat=(count:4 value:0) ball=(count:1 value:2)
+SVAgent (THEM) : book=(count:1 value:3) hat=(count:4 value:1) ball=(count:1 value:3)
+-----
+YOU: i would love the book and ball <eos> 
+THEM: that'll be fine . 3 hats for me . <eos> 
+YOU: i'll take it <eos> 
+THEM: i'll take the book and hats <eos> 
+YOU: i need one hat and the ball please <eos> 
+THEM: i would need a least the ball also . <eos> 
+YOU: i really need the ball and the book and one hat . <eos> 
+THEM: i need the ball . you can have the book , and i know hats . <eos> 
+YOU: that's fine . deal . <eos> 
+THEM: good enough for me . <eos> 
+YOU: ok deal <eos> 
+THEM: <selection> 
+-----
+book=1 hat=0 ball=0 book=0 hat=4 ball=1 
+-----
+counter 84, rl reward 8, sv reward 7, rl aver 6.94, sv aver 4.60
+
+
+
+RlAgent (YOU) : book=(count:4 value:0) hat=(count:1 value:1) ball=(count:1 value:9)
+SVAgent (THEM) : book=(count:4 value:1) hat=(count:1 value:2) ball=(count:1 value:4)
+-----
+THEM: i'll take the hat and ball , ok ? <eos> 
+YOU: i want three books and the hat <eos> 
+THEM: you can have the hat and ball . but i need the books <eos> 
+YOU: deal <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=1 book=4 hat=0 ball=0 
+-----
+counter 85, rl reward 10, sv reward 4, rl aver 6.98, sv aver 4.59
+
+
+
+RlAgent (YOU) : book=(count:3 value:1) hat=(count:1 value:6) ball=(count:1 value:1)
+SVAgent (THEM) : book=(count:3 value:0) hat=(count:1 value:7) ball=(count:1 value:3)
+-----
+THEM: i would like the hat and the ball . <eos> 
+YOU: i want hat and ball <eos> 
+THEM: i need the hat and you can have the rest <eos> 
+YOU: ok <eos> 
+THEM: great ! <eos> 
+YOU: i need the hat and the ball <eos> 
+THEM: you can everything else / 10 <eos> 
+YOU: deal <eos> 
+THEM: okay <eos> 
+YOU: perfect <eos> 
+THEM: <selection> 
+-----
+book=3 hat=1 ball=1 book=0 hat=0 ball=0 
+-----
+counter 86, rl reward 10, sv reward 0, rl aver 7.01, sv aver 4.54
+
+
+
+RlAgent (YOU) : book=(count:2 value:2) hat=(count:2 value:1) ball=(count:2 value:2)
+SVAgent (THEM) : book=(count:2 value:0) hat=(count:2 value:0) ball=(count:2 value:5)
+-----
+THEM: i would like the balls and the hats <eos> 
+YOU: i need hats and balls <eos> 
+THEM: i will take both balls and a book <eos> 
+YOU: sounds good to me . <eos> 
+THEM: <selection> 
+-----
+book=1 hat=2 ball=0 book=1 hat=0 ball=2 
+-----
+counter 87, rl reward 4, sv reward 10, rl aver 6.98, sv aver 4.60
+
+
+
+RlAgent (YOU) : book=(count:3 value:0) hat=(count:2 value:2) ball=(count:1 value:6)
+SVAgent (THEM) : book=(count:3 value:2) hat=(count:2 value:2) ball=(count:1 value:0)
+-----
+YOU: i would like all the hats and ball <eos> 
+THEM: deal <eos> 
+YOU: i would like the hats and the ball <eos> 
+THEM: deal ! <eos> 
+YOU: <selection> 
+-----
+book=0 hat=2 ball=1 book=3 hat=0 ball=0 
+-----
+counter 88, rl reward 10, sv reward 6, rl aver 7.01, sv aver 4.62
+
+
+
+RlAgent (YOU) : book=(count:2 value:0) hat=(count:1 value:10) ball=(count:2 value:0)
+SVAgent (THEM) : book=(count:2 value:1) hat=(count:1 value:6) ball=(count:2 value:1)
+-----
+THEM: i would like the hat and both balls . <eos> 
+YOU: you can have the balls if i can have the hat and the books <eos> 
+THEM: i need a ball , you can have the hat and one book . <eos> 
+YOU: deal . <eos> 
+THEM: <selection> 
+-----
+book=1 hat=1 ball=0 book=1 hat=0 ball=2 
+-----
+counter 89, rl reward 10, sv reward 3, rl aver 7.04, sv aver 4.60
+
+
+
+RlAgent (YOU) : book=(count:3 value:0) hat=(count:1 value:8) ball=(count:1 value:2)
+SVAgent (THEM) : book=(count:3 value:1) hat=(count:1 value:4) ball=(count:1 value:3)
+-----
+YOU: i want hat & ball <eos> 
+THEM: deal <eos> 
+YOU: can i have the hat and two books please ? <eos> 
+THEM: is that seems a good deal for me ? <eos> 
+YOU: no that wont work either <eos> 
+THEM: alright . . . i need the hat and 2 of the books . <eos> 
+YOU: i want the hat and basketball <eos> 
+THEM: problem what okay to you can have the ball and a book <eos> 
+YOU: i will take the hat you take everything else ! <eos> 
+THEM: yea , deal <eos> 
+YOU: <selection> 
+-----
+book=0 hat=1 ball=0 book=3 hat=0 ball=1 
+-----
+counter 90, rl reward 8, sv reward 6, rl aver 7.05, sv aver 4.62
+
+
+
+RlAgent (YOU) : book=(count:1 value:6) hat=(count:1 value:4) ball=(count:3 value:0)
+SVAgent (THEM) : book=(count:1 value:2) hat=(count:1 value:5) ball=(count:3 value:1)
+-----
+THEM: i would like 1 hat and 2 balls <eos> 
+YOU: i want the hat and book and , i can work <eos> 
+THEM: deal <eos> 
+YOU: <selection> 
+-----
+book=1 hat=1 ball=0 book=0 hat=0 ball=3 
+-----
+counter 91, rl reward 10, sv reward 3, rl aver 7.09, sv aver 4.60
+
+
+
+RlAgent (YOU) : book=(count:4 value:2) hat=(count:1 value:1) ball=(count:1 value:1)
+SVAgent (THEM) : book=(count:4 value:2) hat=(count:1 value:0) ball=(count:1 value:2)
+-----
+THEM: i would like the books <eos> 
+YOU: ok <eos> 
+THEM: can i just the books ? <eos> 
+YOU: yes <eos> 
+THEM: can i get 4 books <eos> 
+YOU: i need the ball and the books . <eos> 
+THEM: i need the ball and 2 books . <eos> 
+YOU: i need ball and hat . <eos> 
+THEM: i need the hat and the ball <eos> 
+YOU: i need hat & the ball <eos> 
+THEM: you can have the hat and the balls , but not the books . <eos> 
+YOU: ok deal <eos> 
+THEM: <selection> 
+-----
+book=4 hat=1 ball=0 book=0 hat=0 ball=1 
+-----
+counter 92, rl reward 9, sv reward 2, rl aver 7.11, sv aver 4.57
+
+
+
+RlAgent (YOU) : book=(count:1 value:2) hat=(count:3 value:2) ball=(count:1 value:2)
+SVAgent (THEM) : book=(count:1 value:2) hat=(count:3 value:1) ball=(count:1 value:5)
+-----
+THEM: i would like the ball and all the hats . <eos> 
+YOU: i want all the hats and ball <eos> 
+THEM: i need the ball and 2 hats <eos> 
+YOU: i want the hats and book <eos> 
+THEM: deal <eos> 
+YOU: i'm sure book and ball for me <eos> 
+THEM: <selection> 
+-----
+book=1 hat=3 ball=0 book=0 hat=0 ball=1 
+-----
+counter 93, rl reward 8, sv reward 5, rl aver 7.12, sv aver 4.57
+
+
+
+RlAgent (YOU) : book=(count:1 value:8) hat=(count:2 value:1) ball=(count:3 value:0)
+SVAgent (THEM) : book=(count:1 value:5) hat=(count:2 value:1) ball=(count:3 value:1)
+-----
+YOU: i'll take the book and two hats . <eos> 
+THEM: i need the book and at least two balls <eos> 
+YOU: i would like the book and 2 hats , i'd like the balls . <eos> 
+THEM: i would also like the book <eos> 
+YOU: ok <eos> 
+THEM: i would like the book and hats , you can have the balls . <eos> 
+YOU: i would like 1 book and two balls . <eos> 
+THEM: how about i get the book and one ball and you can have the rest <eos> 
+YOU: i need one more item to make it <eos> 
+THEM: sure , i will take the book and one hat , you get rest <eos> 
+YOU: i need the book and balls <eos> 
+THEM: i'll take the book . you can have both hats . <eos> 
+YOU: no . id like the hats and two books for me . <eos> 
+THEM: i can give you 1 ball and 3 hats . <eos> 
+YOU: how about i get the balls , one book and hat ? <eos> 
+THEM: sure i will give you the book and 3 balls for 2 hats . <eos> 
+YOU: i want book , you can have the rest <eos> 
+THEM: ok <eos> 
+YOU: <selection> 
+-----
+book=1 hat=0 ball=0 book=0 hat=2 ball=3 
+-----
+counter 94, rl reward 8, sv reward 5, rl aver 7.13, sv aver 4.58
+
+
+
+RlAgent (YOU) : book=(count:2 value:2) hat=(count:2 value:1) ball=(count:1 value:4)
+SVAgent (THEM) : book=(count:2 value:2) hat=(count:2 value:0) ball=(count:1 value:6)
+-----
+YOU: i get the ball and hat you get the rest <eos> 
+THEM: ok <eos> 
+YOU: deal <eos> 
+THEM: <selection> 
+-----
+book=0 hat=1 ball=1 book=2 hat=1 ball=0 
+-----
+counter 95, rl reward 5, sv reward 4, rl aver 7.10, sv aver 4.57
+
+
+
+RlAgent (YOU) : book=(count:2 value:2) hat=(count:1 value:0) ball=(count:3 value:2)
+SVAgent (THEM) : book=(count:2 value:0) hat=(count:1 value:4) ball=(count:3 value:2)
+-----
+YOU: i want the balls and the books <eos> 
+THEM: i would like the hat and 3 balls <eos> 
+YOU: i want the balls and one book <eos> 
+THEM: i need the hat for sure . <eos> 
+YOU: ok , i'll take the rest <eos> 
+THEM: ok <eos> 
+YOU: <selection> 
+-----
+book=2 hat=0 ball=3 book=0 hat=1 ball=0 
+-----
+counter 96, rl reward 10, sv reward 4, rl aver 7.13, sv aver 4.57
+
+
+
+RlAgent (YOU) : book=(count:2 value:1) hat=(count:1 value:2) ball=(count:3 value:2)
+SVAgent (THEM) : book=(count:2 value:0) hat=(count:1 value:10) ball=(count:3 value:0)
+-----
+YOU: i'll take two balls , the hat and a book . <eos> 
+THEM: i would like the hat and 1 book - you can have the rest <eos> 
+YOU: ok deal <eos> 
+THEM: ok <eos> 
+YOU: <selection> 
+-----
+book=1 hat=0 ball=3 book=1 hat=1 ball=0 
+-----
+counter 97, rl reward 7, sv reward 10, rl aver 7.13, sv aver 4.62
+
+
+
+RlAgent (YOU) : book=(count:1 value:4) hat=(count:3 value:0) ball=(count:1 value:6)
+SVAgent (THEM) : book=(count:1 value:7) hat=(count:3 value:1) ball=(count:1 value:0)
+-----
+THEM: i will take the basketball and book . you can have the 3 hats . <eos> 
+YOU: i want the ball and the book <eos> 
+THEM: im really willing to give the hats and a book or a ball <eos> 
+YOU: you can have the hats if i get the book and the ball . <eos> 
+THEM: deal <eos> 
+YOU: i need three hats and the ball <eos> 
+THEM: how about you take three hats and one ball ? <eos> 
+YOU: i want the ball and hat <eos> 
+THEM: i need the ball and the book <eos> 
+YOU: i want the ball and 2 hats <eos> 
+THEM: deal <eos> 
+YOU: that isn't going to work without the ball ? <eos> 
+THEM: no deal <eos> 
+YOU: ok , deal . <eos> 
+THEM: <selection> 
+-----
+book=> hat=> ball=> book=> hat=> ball=> 
+-----
+counter 98, rl reward 0, sv reward 0, rl aver 7.06, sv aver 4.58
+
+
+
+RlAgent (YOU) : book=(count:2 value:1) hat=(count:1 value:5) ball=(count:3 value:1)
+SVAgent (THEM) : book=(count:2 value:4) hat=(count:1 value:2) ball=(count:3 value:0)
+-----
+YOU: i'll take all the balls <eos> 
+THEM: okay if i can have everything else <eos> 
+YOU: can i also have one book <eos> 
+THEM: i will take the balls and one book . you could have the rest . <eos> 
+YOU: sure ! <eos> 
+THEM: perfect ! deal ! <eos> 
+YOU: perfect ! <eos> 
+THEM: <selection> 
+-----
+book=1 hat=1 ball=0 book=1 hat=0 ball=3 
+-----
+counter 99, rl reward 6, sv reward 4, rl aver 7.05, sv aver 4.57
+
