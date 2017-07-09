@@ -1,7 +1,9 @@
 # end-to-end-negotiator
 
 Implementation of following paper in Tensorflow
+
 Deal or No Deal? End-to-End Learning for Negotiation Dialogues
+
 https://arxiv.org/abs/1706.05125
 
 Training data available at https://github.com/facebookresearch/end-to-end-negotiator, and also pytorch implementation
@@ -21,9 +23,8 @@ Training data available at https://github.com/facebookresearch/end-to-end-negoti
 
 
 Results (higher the better, min 0, max 10):
-SV versus RL normal (without rollouts)
-4.93 versus 6.20
 
-SV versus RL with rollouts
-4.57 versus 7.05 
+SV versus RL normal (without rollouts): 4.93 versus 6.20
+
+SV versus RL with rollouts: 4.57 versus 7.05 
 
